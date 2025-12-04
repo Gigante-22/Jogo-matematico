@@ -31,7 +31,7 @@
           <button id="mode-single" class="btn">1 Jogador (vs IA)</button>
           <button id="mode-local" class="btn">2 Jogadores (local)</button>
         </div>
-        <p class="tip">Dica: Limite = rápido (10), Derivada = médio (20), Integral = forte (30)</p>
+        <p class="tip">Dica: Fácil = 10 dano, Médio = 20 dano, Difícil = 30 dano</p>
         <div class="menu-actions">
           <button id="btn-start-game" class="btn primary">Começar partida</button>
           <button id="btn-back" class="btn ghost">Voltar</button>
@@ -54,9 +54,9 @@
         <div class="center-hud">
           <div id="turn-indicator">Turno: <span id="turn-player">Jogador 1</span></div>
           <div class="attack-buttons">
-            <button class="atk-btn" data-atk="limite">Limite</button>
-            <button class="atk-btn" data-atk="derivada">Derivada</button>
-            <button class="atk-btn" data-atk="integral">Integral</button>
+            <button class="atk-btn" data-atk="facil">Fácil</button>
+            <button class="atk-btn" data-atk="medio">Médio</button>
+            <button class="atk-btn" data-atk="dificil">Difícil</button>
           </div>
         </div>
 
@@ -91,6 +91,9 @@
             <button class="alt-btn" data-choice="2">C</button>
             <button class="alt-btn" data-choice="3">D</button>
           </div>
+          <div class="q-actions">
+            <button id="btn-skip" class="btn ghost">Pular</button>
+          </div>
         </div>
       </div>
 
@@ -108,6 +111,5 @@
 
   <script src="js/script.js"></script>
 </body>
-
 
 </html>
